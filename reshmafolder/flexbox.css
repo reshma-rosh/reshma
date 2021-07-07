@@ -1,0 +1,23 @@
+.container{
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 90vh;
+    
+
+}
+.box{
+    flex-basis: 15rem;
+
+    flex-shrink: 1
+
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(19, 226, 199);
+    margin: 1rem;
+}
+.box-one{
+    background-color: blueviolet;
+
+}

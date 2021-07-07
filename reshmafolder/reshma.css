@@ -1,0 +1,90 @@
+body{
+    margin :20px;
+
+}
+p{
+    color:indigo;
+    border: 2px solid blue;
+}
+strong{
+    color:initial;
+    border: inherit;
+}
+::selection{
+    background-color: red;
+}
+ul li:nth-child(ODD){
+    color: purple;
+}
+
+a:hover {
+    background-color: yellow;
+    
+}
+.box  {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    border: 10px dashed blueviolet;
+    border-width: 10px 20px;
+    border-style: ridge;
+    border-top-color: lawngreen;
+    border-radius: 40px;
+    box-shadow: 10px 10px skyblue;
+    padding: 30px;
+    margin:  40px 30px;
+    box-sizing: border-box;
+    display: block;
+    
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    border: 10px dashed red;
+    border-width: 10px 20px;
+    border-style: ridge;
+    border-top-color: blue;
+    border-radius: 40px;
+    box-shadow: 10px 10px skyblue;
+    padding: 30px;
+    margin:  40px 30px;
+    box-sizing: border-box;
+    display: block;
+    
+}
+
+.box3 {
+    border: 3px dotted red;
+    background-color: blue;
+    width: 50vw;
+    height: 100vh;
+    font-size: 20px
+}
+
+
+.boxes {
+    border: 3px solid red;
+}
+
+.boxe {
+    width: 100px;
+    height: 100px;
+}
+.box-one {
+    background-color: chartreuse;
+}
+
+.box-two {
+    background-color: dodgerblue;
+}
+.box-three {
+    background-color: yellow;
+}
+
+
+h1{
+    color:teal;
+    text-shadow: 3px 3px 5px yellow;
+}
+

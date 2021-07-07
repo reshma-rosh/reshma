@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms1.css" class="rel">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+    <form>
+       <input type="email" autofocus />
+       <textarea >comment</textarea>
+    </form>
+    <form>
+        <input type="text" list="countries"= autocomplete="off"/>
+        <datalist id="countries">
+            <option data-value="1">AUSTRALIA</option>
+            <option>CANADA</option>
+            <option>INDIA</option>
+            <option>UNITEDSTATES</option>
+        </datalist>
+        </form>
+        <form>
+            <select>
+                <optgroup label="front-end course">
+             <option value="1">Html</option>
+                <option value="2">css</option>
+                <option value="3">javascript</option>
+            
+
+                </optgroup>
+                <optgroup label="back-end courses">
+                    <option value="1">node.js</option>
+                    <option value="2">asp.net</option>
+                    <option value="3">django</option>
+                </optgroup>
+                </select>
+        </form>
+        <form>
+            <div>
+                <input type="checkbox"  id="front-end">
+                <label class="label-inline" for="front-end">Front-end</label>
+            </div>
+            <div>
+                <input type="checkbox"  id="back-end" checked>
+                <label class="label-inline" for="back-end">back-end</label>
+            </div>
+        </form>
+        <form>
+            <div>
+                <input type="radio" name="membership" id="silver"/>
+                <label for="silver" class="label-inline">silver</label>
+            </div>
+            <div>
+                <input type="radio" name="membership" id="gold" disabled/>
+                <label for="silver" class="label-inline">gold</label>
+            </div>
+
+        </form>
+        <form>
+            <input type="range" min="0" max="100" value="90"/>
+        </form>
+        <form>
+            <input type="file" accept=".jpg" />
+        </form>
+        <form>
+            <fieldset>
+                <legend>billing address</legend>
+            <input type="text"/>
+            <input type="text"/>    
+            <input type="text"/>    
+            </fieldset>
+          <fieldset>
+                <legend>payment</legend>
+            <input type="text"/>
+            <input type="text"/>    
+            <input type="text"/>
+            </fieldset>    
+            </form>
+            <form>
+                <input type="hidden" name="course-id" value="1234"/>
+            </form>
+            <form>
+                <input type="date" required />
+                <button type="submit">submit</button>
+            </form>
+    
+    
+</body>
+</html>

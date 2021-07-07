@@ -1,0 +1,43 @@
+body{
+    margin: 10px;
+}
+.first{
+    visibility: hidden;
+}
+.boxes {
+    border: 3px solid rgb(212, 52, 52);
+    position: relative;
+    
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.box-one {
+    background-color: green;
+    position: left;
+    top: 0;
+
+}
+
+.box-two {
+    background-color: yellow;
+
+}
+.box-three {
+    background-color: pink;
+}
+.avatar{
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
+}
+.clear{
+    clear: both;
+
+}
